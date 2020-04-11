@@ -2,7 +2,7 @@
 
 //主体
 int removeDuplicates(int* nums, int numSize){
-    if(numSize==0){
+    if(numSize==0){ //需要注意numSize=0的情况
         return 0;
     }
     int newLen = 0;
