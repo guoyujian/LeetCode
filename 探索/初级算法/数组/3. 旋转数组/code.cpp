@@ -2,7 +2,7 @@
  *@Author: MetGuo 
  *@Date: 2020-04-13 17:43:59 
  * @Last Modified by: MetGuo
- * @Last Modified time: 2020-04-13 20:50:26
+ * @Last Modified time: 2020-04-13 20:56:11
  */
 #include <stdio.h>
 
@@ -36,6 +36,8 @@ void rotate(int* nums, int numsSize, int k){
             ++currIndex;
         }
     }
+
+    //还有其他方法待补充
     
    
 
