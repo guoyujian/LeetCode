@@ -1,4 +1,14 @@
+/*
+ * @Author: MetGuo 
+ * @Date: 2020-04-11 
+ * @Last Modified by: MetGuo
+ * @Last Modified time: 2020-04-13 17:41:45
+ */
+
+
 #include <stdio.h>
+
+
 
 //主体
 int removeDuplicates(int* nums, int numSize){

@@ -1,3 +1,9 @@
+/*
+ * @Author: MetGuo 
+ * @Date: 2020-04-12
+ * @Last Modified by: MetGuo
+ * @Last Modified time: 2020-04-13 20:29:17
+ */
 #include <stdio.h>
 
 
@@ -14,6 +20,7 @@ int maxProfit(int* prices, int pricesSize){
     if(pricesSize<=1){
         return 0;
     }
+    
     //大于一个元素的时候
     for(i=0; i<pricesSize-1; i++){
         if(prices[i] >= prices[i+1]){
