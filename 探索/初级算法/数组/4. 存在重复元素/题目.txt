@@ -1,0 +1,2 @@
+https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/1/array/24/
+C语言还要写排序，所以就偷懒了:)
