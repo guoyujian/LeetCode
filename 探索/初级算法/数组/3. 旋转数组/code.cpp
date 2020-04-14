@@ -25,6 +25,9 @@ void rotate(int* nums, int numsSize, int k){
      *currentIndex = newIndex 说明两个位置的元素相互交换完成，那直接往后推一位
      */
     int i=0, currNum=nums[0], currIndex=0, newIndex=0;
+    if(numsSize<2 || k<1 || k%numsSize==0){
+        return ;
+    }
     while(i++ < numsSize){
         newIndex = (newIndex + k) % numsSize;
         int tmp = nums[newIndex];
