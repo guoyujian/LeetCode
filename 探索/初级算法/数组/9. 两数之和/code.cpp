@@ -33,7 +33,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
 }
 
- 
+
 int main(int argc, char const *argv[])
 {
     int nums[] = {2, 7, 11, 15};
