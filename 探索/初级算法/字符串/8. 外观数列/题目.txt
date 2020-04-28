@@ -1,0 +1,2 @@
+https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/5/strings/39/
+C对字符串的操作很繁琐，故使用Java
