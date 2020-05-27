@@ -1,0 +1,3 @@
+https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/25/math/61/
+
+优秀题解：https://leetcode-cn.com/problems/count-primes/solution/ru-he-gao-xiao-pan-ding-shai-xuan-su-shu-by-labula/
