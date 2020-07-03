@@ -23,7 +23,7 @@ public class Solution {
         int newNums[] = new int[nums.length];
         sortByOffset(newNums, nums, offset);
         int index = Arrays.binarySearch(newNums, target); //二分查找
-        return  index < 0 ? -1 : (nums.length + index - offset) % nums.length ;
+        return  index < 0 ? -1 : (nums.length + index - offset) % nums.length ; //注意这里返回的是原数组的index，所以需要做一步运算
     }
 
     /*查找数组的偏移量 */
