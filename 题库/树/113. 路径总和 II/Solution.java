@@ -1,6 +1,3 @@
-package patterns.observer;
-
-
 
 /**
  * @Description 路径总和 II
