@@ -1,0 +1,2 @@
+https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/
+本题与530完全相同
