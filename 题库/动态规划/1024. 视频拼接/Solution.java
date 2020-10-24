@@ -7,6 +7,7 @@ import java.util.*;
  * @Date 2020/10/24
  * @Created by gyj
  * 抄的
+ * 贪心算法/动态规划
  */
 
 /*
