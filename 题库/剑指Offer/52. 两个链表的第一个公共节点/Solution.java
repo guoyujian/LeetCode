@@ -19,7 +19,7 @@ import java.util.*;
  * }
  */
 public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public ListNode getIntersectionNode0(ListNode headA, ListNode headB) {
         List<ListNode> list = new ArrayList<>();
         ListNode p = headA;
         while(p != null) {
@@ -34,6 +34,19 @@ public class Solution {
             p = p.next;
         }
         return null;
+    }
+    //双指针解法，better
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    if(headA == null || headB == null) {
+        return null;
+    }
+    ListNode p = headA;
+    ListNode q = headB;
+    while(p != q) {
+        p = p == null ? headB : p.next;
+        q = q == null ? headA : q.next;
+    }
+    return p;
     }
 }
 
