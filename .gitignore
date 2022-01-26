@@ -5,3 +5,4 @@ code.exe
 Test/说明.txt
 .vscode/c_cpp_properties.json
 Test/code.cpp
+*.class
